@@ -13,3 +13,8 @@ Ionic is a framework for web developers to build native apps with html, css, and
 4. View `www/index.html`. ngAnimate and ngSanitize comes with `ionic.bundle.js`
 5. Create the side menus: One will contain the menu content, the other will be on the left side by applying the attribute `side="left"`
 6. Add header content to each menu
+##Testing your app
+7. Desktop browser testing: `ionic serve`
+This opens your app in a browser.  As you make changes to the app with the server running, the changes will show in the browser.  Also, since you created a left content area, right click on mouse and swipe right to see the area.  If you click again, the area goes away
+8. Simulator testing: `ionic build ios` `ionic emulate ios`.  You can do the same with android, but it didn't work on my mac.
+9. Native app testing: if on mac, you have to register with Apple Developer and pay $99 per year so I won't be doing this unless it's critical
