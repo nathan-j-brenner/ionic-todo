@@ -1,0 +1,1 @@
+1. Create application directory: `ionic create ionic-todo blank`
